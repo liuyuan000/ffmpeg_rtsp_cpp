@@ -1,28 +1,23 @@
-# ffmpeg_rtsp_cpp
-This project is a video streaming application that receives RTSP stream using ffmpeg and displays it using OpenCV. The project has been tested on Windows computer using Visual Studio.
+# 本工程使用说明
 
-# Dependencies
-The project requires the following dependencies:
+本工程是在Windows电脑上的VS进行测试的，需要依赖OpenCV和FFmpeg库，请自行准备。
 
-OpenCV
-ffmpeg
-Please make sure to install these dependencies before running the project.
+## 环境准备
 
-# Usage
-To use the project, follow these steps:
+- Windows电脑
+- Visual Studio
+- OpenCV库
+- FFmpeg库
 
-Clone the repository to your local machine.
+## 使用方法
 
-Install the required dependencies.
+1. 将本工程下载到本地。
+2. 将OpenCV和FFmpeg库添加到本工程中。
+3. 打开`main.cpp`文件，将拉流地址更改为自己的地址。
+4. 编译并运行本工程。
 
-Open the project in Visual Studio.
+## 注意事项
 
-In the main.cpp file, change the RTSP stream address to your own.CopyCopy
-
-Run the project.
-
-The video stream format is yuv420, which is converted to RGB before being displayed using OpenCV.
-
-
-License
-This project is licensed under the MIT License.
+- 视频流的格式为yuv420，本工程将其转换成RGB后通过OpenCV进行显示。
+- 如果编译或运行过程中出现问题，请检查您的环境是否正确配置。
+- 本工程仅供学习交流使用，不得用于商业用途。
