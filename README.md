@@ -11,11 +11,11 @@ Please make sure to install these dependencies before running the project.
 # Usage
 To use the project, follow these steps:
 
-## Clone the repository to your local machine.
-## Install the required dependencies.
-## Open the project in Visual Studio.
+Clone the repository to your local machine.
+Install the required dependencies.
+Open the project in Visual Studio.
 In the main.cpp file, change the RTSP stream address to your own.CopyCopy
-## Run the project.
+Run the project.
 The video stream format is yuv420, which is converted to RGB before being displayed using OpenCV.
 
 License
